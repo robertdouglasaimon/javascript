@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03 (ex003)</title>
+</head>
+
+<style>
+    body {
+        background-color: hsl(214, 82%, 69%);
+        color: white;
+        font: normal 25pt arial;
+    }
+    
+    h1 {
+        color: rgb(255, 212, 22);
+    }
+    
+</style>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já to livre da maldição da programação KKK'</p>
+<!-- Script que executa sozinho, sem a intervenção do usuário -->
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        //window.alert('A soma dos valores é ' + String (s))
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+
+
+        // (number + number) - Serve para adição.
+        // (string + string) - Serve para concatenação.
+        /*Para a soma funcionar é preciso converter a string para número usando os seguintes comandos: 
+        
+        Number.parseFloat - Para números não inteiros. (Ex:5.6)
+
+        Number.parseInt - Para números inteiros. (Ex: 5)
+
+        Number - Para ambos, porém, há a chance de erros. Logo, é preciso analisar a situação para saber qual usar. Porém, é mais recomendado usar só o "Number" mesmo, pois ele cumpre os dois papéis.
+        */
+       
+        /* E para o inverso, para converter um número em uma string, usa-se os comandos:
+
+        String(n) 
+        
+        ou
+
+        n.toString() 
+
+        Ambas funcionarão.
+
+        */
+
+
+    </script>
+</body>
+</html>
