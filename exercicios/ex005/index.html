@@ -17,14 +17,28 @@
     <h1>Iniciando estudos DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
-    <div>Clique em mim</div>
 
+    <div id="msg">Clique em mim</div>
     <script>
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
         
-        corpo.style.background = 'black' /*pegou a variavel corpo e aplicou nela a cor preta no fundo*/
-        p1.style.color = 'blue' /*pegou o 'p1' e mudou a cor dele*/
+        var d = window.document.querySelector('div.msg')
+        d.style.background = 'blue'
+
+
+
+        /* DICA:
+        
+        QUANDO USAR OS "PUXADORES" DO querySelector?
+        Simples, segue abaixo a lista!
+
+        Quando for ID == div#msg
+        Quando for Class == div.msg
+        */
+
+
+
     </script>
 
 
