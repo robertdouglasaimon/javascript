@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 009 PROPOSTO PELO PROFESSOR</title>
+</head>
+<body>
+    <!--<script>
+    var país = prompt ('Em que país você está?')
+        window.alert(`Vivendo em ${país}.`)
+    if (país == 'Brasil') {
+        window.alert('Você é Brasileiro!')
+    } else {
+        window.alert('Você é Estrangeiro!')
+    }
+    </script>-->
+
+    <h2>Alerta de País</h2>
+
+    <button onclick="verificarPais()">Verificar País</button>
+
+    <p id="resposta"></p>
+
+    <script>
+        function verificarPais() {
+            var país = prompt("Em que país você mora?");
+            var respostaElemento = document.querySelector("#resposta");
+            if (país === 'Brasil') {
+                respostaElemento.innerHTML = `Vivendo em ${país}. Você é Brasileiro!`;
+            } else {
+                respostaElemento.innerHTML = `Vivendo em ${país}. Você é Estrangeiro!`;
+            }
+        }
+    </script>
+
+</body>
+<script src="script.js"></script>
+</html>
