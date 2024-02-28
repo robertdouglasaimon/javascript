@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Antes e Depois</title>
+</head>
+<body>
+    <h1>Antes e Depois</h1>
+    <input type="button" value="Inicie o desafio!" 
+    onclick="iniciarDesafio()">
+    <script>
+         // Definição da função iniciarDesafio()
+        function iniciarDesafio() {
+
+             // Solicita ao usuário que digite um número inteiro (parseINT só serve para nº inteiros) e armazena o resultado na variável "numero"
+            const numero = parseInt (window.prompt('Digite um número inteiro qualquer:'));
+
+             // !isNaN Verifica se o valor digitado é um número válido
+            if (!isNaN(numero)) {
+
+                 // Se for válido, calcula o número que vem antes do número digitado
+                const antes = numero - 1;
+
+                // Calcula o número que vem depois do número digitado
+                const depois = numero + 1;
+
+                // Exibe uma mensagem de alerta com os números antes e depois do número digitado
+                window.alert(`Antes de ${numero}, temos o número ${antes}. Depois de ${numero}, temos o número
+                ${depois}.`)
+            } else {
+
+                 // Se o valor digitado não for um número válido, exibe uma mensagem de alerta pedindo que o usuário digite um número válido
+                window.alert('Por favor, digite um número válido.')
+            }
+        }
+    </script>
+</body>
+</html>

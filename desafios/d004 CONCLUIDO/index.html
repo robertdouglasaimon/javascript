@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio da Calculadora de troco</title>
+</head>
+<body>
+    <h1>Calculando o Troco</h1>
+    <input type="button" value="Comprar Produto" onclick="iniciarCompra()">
+    <script>
+        function iniciarCompra() {
+            // Primeiro prompt: solicita o nome do produto
+            const produto = window.prompt('Qual produto você está comprando?');
+
+            // Segundo prompt: solicita o valor do produto
+            const precoProduto = parseFloat(window.prompt(`Quando custa ${produto} que você está comprando?`));
+
+            // Terceiro prompt: solicita o valor pago pelo produto
+            const valorPago = parseFloat(window.prompt(`Qual foi o valor que você deu para pagar ${produto}?`));
+
+             // Calcula o troco
+             const troco = valorPago - precoProduto;
+
+             // Exibe a mensagem com o resumo da compra e o troco
+             window.alert(`Você compro ${produto} que custou R$ ${precoProduto.toFixed(2).replace('.', ',')}. Deu R$ ${valorPago.toFixed(2).replace('.', ',')} em dinheiro e vai receber R$ ${troco.toFixed(2).replace('.', ',')} de troco. Volte sempre!`);
+        }
+    </script>
+</body>
+</html>

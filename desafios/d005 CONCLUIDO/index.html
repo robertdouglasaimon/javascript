@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do conversor de medidas</title>
+</head>
+<body>
+    <h1>Conversor de Medidas</h1>
+    <input type="button" value="Converter" onclick="iniciarConversao()">
+    <br>
+    <br>
+    <br>
+    <div id="res"></div>
+    <script>
+        function iniciarConversao() {
+        // Solicitar a entrada do usuário para a distância em metros  
+        const metros = parseFloat (window.prompt('Digite uma distância em metros (m)'));
+
+         // Calcular as outras medidas
+        const quilometros = metros / 1000;
+        const hectometros = metros / 100;
+        const decametros = metros / 10;
+        const decimetros = metros * 10;
+        const centimetros = metros * 100;
+        const milimetros = metros * 1000;
+        
+        // Exibir os resultados ao usuário
+        res.innerHTML = (`<span style="font-size: 30px;"><strong> A distância de ${metros} metros corresponde a:</strong></span><br>
+        ${quilometros.toFixed(2).replace('.', ',')} quilômetros (km)<br>
+        ${hectometros.toFixed(2).replace('.', ',')} hectômetros (hm)<br>
+        ${decametros.toFixed(2).replace('.', ',')} decâmetros (dam)<br>
+        ${decimetros.toFixed(2)} decímetros (dm)<br>
+        ${centimetros.toFixed(2)} centímetros (cm)<br>
+        ${milimetros.toFixed(2)} milímetros (mm)`);
+
+
+    }
+
+
+        /*EXPLICAÇÃO FUNDAMENTAL PARA ENTENDER O CALCULO DAS METRICA
+        
+        Para entender como chegamos a esses valores, precisamos considerar as relações entre as unidades de medida no sistema métrico. No sistema métrico, as unidades são baseadas em potências de 10, o que significa que cada unidade é 10 vezes maior ou menor que a unidade adjacente.
+
+
+        Quilômetros (km): Um quilômetro é igual a 1000 metros. Portanto, para converter metros em quilômetros, dividimos o valor em metros por 1000.
+
+        Exemplo: 1500 metros / 1000 = 1,5 quilômetros
+
+
+
+        Hectômetros (hm): Um hectômetro é igual a 100 metros. Portanto, para converter metros em hectômetros, dividimos o valor em metros por 100.
+
+        Exemplo: 1500 metros / 100 = 15 hectômetros
+
+
+
+        Decâmetros (dam): Um decâmetro é igual a 10 metros. Portanto, para converter metros em decâmetros, dividimos o valor em metros por 10.
+
+        Exemplo: 1500 metros / 10 = 150 decâmetros
+
+
+
+        Decímetros (dm): Um decímetro é igual a 0,1 metros (ou 10 centímetros). Portanto, para converter metros em decímetros, multiplicamos o valor em metros por 10.
+
+        Exemplo: 1500 metros * 10 = 15000 decímetros
+
+
+
+        Centímetros (cm): Um centímetro é igual a 0,01 metros. Portanto, para converter metros em centímetros, multiplicamos o valor em metros por 100.
+
+        Exemplo: 1500 metros * 100 = 150000 centímetros
+
+
+
+        Milímetros (mm): Um milímetro é igual a 0,001 metros. Portanto, para converter metros em milímetros, multiplicamos o valor em metros por 1000.
+
+        Exemplo: 1500 metros * 1000 = 1500000 milímetros
+        
+        */
+
+    </script>
+</body>
+</html>
