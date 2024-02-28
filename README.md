@@ -112,5 +112,5 @@ Projetos são uma parte emocionante do aprendizado, permitindo a aplicação pr�
 <p>JavaScript desempenha um papel fundamental no desenvolvimento web moderno. Ele permite a criação de páginas web dinâmicas e interativas, possibilitando aos desenvolvedores criar experiências mais ricas e envolventes para os usuários. Junto com HTML e CSS, forma a base do desenvolvimento front-end, sendo imprescindível para qualquer programador iniciante que deseja construir uma carreira sólida na área de tecnologia.</p>
 
 <h2>Contato</h2>
-<p>Se você estiver interessado em colaborar, discutir projetos ou apenas trocar ideias, fique à vontade para entrar em contato comigo através do e-mail: <a> href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdqHLVzMnLRjdrLVtSdqsfmSSGFmLcrrrXSkRGjMFzKXrJWNjnJNwPRRjXDtqsdJCbhQW" target="_blank">robertdouglasaimon@gmail.com</a>.<br>
+<p>Se você estiver interessado em colaborar, discutir projetos ou apenas trocar ideias, fique à vontade para entrar em contato comigo através do e-mail: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdqHLVzMnLRjdrLVtSdqsfmSSGFmLcrrrXSkRGjMFzKXrJWNjnJNwPRRjXDtqsdJCbhQW" target="_blank">robertdouglasaimon@gmail.com</a>.<br>
 Espero que este repositório seja útil para você, assim como tem sido valioso para o meu crescimento. Obrigado por explorar meu trabalho!</p>
