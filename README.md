@@ -83,7 +83,7 @@ Além dos exercícios do curso, também realizei alguns exercícios externos par
 <br>
 <ul>
     <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/exe001 - Calculadora - IMC/index.html">Externo 0</a></li>
-    <li>Externo 1</li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 12 - ex001/index.html">Externo 1</a></li>
     <li>Externo 2</li>
     <li>Externo 3</li>
     <li>Externo 4</li>
