@@ -1,0 +1,45 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15 Arial;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+}
+
+#msg {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
