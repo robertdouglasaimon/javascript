@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Conversor de temperaturas</title>
+</head>
+<style>
+    h1 {
+        font-size: 47px;
+    }
+
+    #botao {
+        width: 150px;
+        height: 60px;
+    }
+
+    #res {
+        font-size: 25px;
+    }
+</style>
+<body>
+    <h1>Conversor de Temperaturas</h1>
+    <input type="button" value="Converter" onclick="converter()" id="botao">
+
+    <br>
+    <br>
+
+    <div id="res">Clique no botão acima para iniciar.</div>
+    <script>
+        function converter() {
+            const temperaturaCelsius = parseFloat (window.prompt('Digite uma temperatura em C (Celsius)'));
+
+            // Verificar se o usuário inseriu um número válido
+            if (isNaN(temperaturaCelsius)) {
+                alert ('Por favor, insira um valor numérico válido.');
+                return;
+            }
+
+             // Converter a temperatura para Kelvin e Fahrenheit
+            const temperaturaKelvin = temperaturaCelsius + 273.15;
+            const temperaturaFahrenheit =  (temperaturaCelsius * 9/5) + 32;
+
+            /*Conversão para Kelvin e Fahrenheit: Converte a temperatura de Celsius para Kelvin e Fahrenheit usando as fórmulas apropriadas:
+
+            Kelvin = Celsius + 273.15
+            Fahrenheit = (Celsius × 9/5) + 32*/
+
+            res.style.fontSize = '30px';
+            document.getElementById('res').innerHTML = `
+            <strong>A temperatura de ${temperaturaCelsius}, corresponde a..</strong><br>
+            Temperatura em Kelvin: ${temperaturaKelvin} 
+            'K (Kelvin) <br>
+            Temperatura em Fahrenheit: ${temperaturaFahrenheit} ºF (Fahrenheit)`;
+        }
+    </script>
+</body>
+</html>
