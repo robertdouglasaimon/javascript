@@ -29,8 +29,8 @@
     <br>
     <div class="res">Clique no botão acima para iniciar.</div>
     <script>
-        // Função para solicitar a cotação do dólar assim que a página é carregada
-        window.onload = function() {
+        
+        window.onload = function() { // window.onload: Função para solicitar a cotação do dólar assim que a página é carregada
             const cotacao = parseFloat(window.prompt('Antes de mais nada. Quanto está a cotação do dólar agora?'));
             if (!isNaN(cotacao)) {
                 localStorage.setItem('cotacaoDolar', cotacao); // Armazena a cotação do dólar na localStorage
