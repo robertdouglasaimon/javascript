@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do conversor de moedas</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .res {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #botao {
+            width: 100px;
+            height:60px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Conversor R$ → U$ </h1>
+    <input type="button" value="Converter" onclick="converter()" id="botao">
+    <br>
+    <br>
+    <div class="res" id="res">Clique no botão acima para iniciar.</div>
+    <script>
+        // Função para solicitar a cotação do dólar assim que a página é carregada
+        window.onload = function() {
+            const cotacao = parseFloat(window.prompt('Antes de mais nada. Quanto está a cotação do dólar agora?'));
+            if (!isNaN(cotacao)) {
+                localStorage.setItem('cotacaoDolar', cotacao); // Armazena a cotação do dólar na localStorage
+            } else {
+                alert('Por favor, insira um valor numérico válido para a cotação do dólar.');
+            }
+        };
+
+        // Função para converter os reais em dólares
+        function converter() {
+            const cotacao = parseFloat(localStorage.getItem('cotacaoDolar')); // Obtém a cotação do dólar armazenada na localStorage
+            const valorReais = parseFloat(window.prompt('Quantos R$ você tem na carteira?'));
+            if (!isNaN(valorReais)) {
+                const valorDolares = valorReais / cotacao;
+                document.querySelector('.res').innerText = `Com a cotação do dólar a ${cotacao.toFixed(2)}, R$ ${valorReais.toFixed(2)} equivalem a U$ ${valorDolares.toFixed(2)}`;
+            } else {
+                alert('Por favor, insira um valor numérico válido para os reais.');
+            }
+        }
+    </script>
+</body>
+</html>
