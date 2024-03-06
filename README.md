@@ -54,7 +54,7 @@ Os desafios proporcionam oportunidades para aplicar o conhecimento adquirido de 
     <li>Desafio 4: <a href="https://robertdouglasaimon.github.io/javascript/desafios/d004 CONCLUIDO">[d004]</a></li>
     <li>Desafio 5: <a href="https://robertdouglasaimon.github.io/javascript/desafios/d005 CONCLUIDO">[d005]</a></li>
     <li>Desafio 6: <a href="https://robertdouglasaimon.github.io/javascript/desafios/d006 CONCLUIDO" target="_blank">[d006]</a></li>
-    <li>Desafio 7: [d007]</li>
+    <li>Desafio 7: <a href="https://robertdouglasaimon.github.io/javascript/desafios/d007 CONCLUIDO" target="_blank">[d007]</a></li>
     <li>Desafio 8: [d008]</li>
     <li>Desafio 9: [d009]</li>
     <li>Desafio 10: [d010]</li>
