@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio desconto de 10%</title>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+
+        #botao {
+            width: 150px;
+            height: 65px;
+        }
+
+        .res {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calcular Desconto</h1>
+    <input type="button" value="Desconto de 10%" id="botao" onclick="calcularDesconto()">
+    <br>
+    <br>
+    <div class="res">Clique no botão acima para iniciar.</div>
+
+    <script>
+        function calcularDesconto() {
+            // Solicitar o nome do produto
+            const produto = window.prompt('Qual é o produto que você está comprando?');
+            if (produto !== null && produto !== '') {
+                // Solicitar o preço do produto
+                const preco = parseFloat(window.prompt(`Qual é o preço de ${produto}?`));
+                if (!isNaN(preco)) {
+                    // Calcular o desconto de 10%
+                    const desconto = preco * 0.1;
+                    const precoComDesconto = preco - desconto;
+
+                    // Exibir o resultado na div com a classe "res"
+                    const mensagem = `<strong>Calculando desconto de 10% para ${produto}</strong><br><br>
+                    O preço original era R$ ${preco.toFixed(2)}<br><br>
+                    Você acaba de ganhar R$ ${desconto.toFixed(2)} de desconto (10%)<br><br>
+                    No fim, você vai pagar R$ ${precoComDesconto.toFixed(2)} no produto ${produto}.`;
+                    document.querySelector('.res').innerHTML = mensagem;
+                } else {
+                    alert('Por favor, insira um valor numérico válido para o preço.');
+                }
+            } else {
+                alert('Insira um produto válido para continuar.');
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+<!--EXPLICAÇÃO COMPLETA DO CODIGO
+    
+Vou explicar o código , caso eu precise no futuro:
+
+
+1. Botão de Acionamento: Aqui temos um botão que aciona a   função calcularDesconto() quando é clicado. Este botão possui o texto "Desconto de 10%" e um ID chamado "botao".
+
+<input type="button" value="Desconto de 10%" id="botao" onclick="calcularDesconto()">
+
+
+
+
+2. Div de Resultado: Esta é uma <div> com a classe "res", onde o resultado do cálculo do desconto será exibido. Inicialmente, mostra uma mensagem padrão.
+
+<div class="res">Clique no botão acima para iniciar.</div>
+
+
+
+3. Função calcularDesconto(): Esta função é chamada quando o botão é clicado. Ela executa as etapas necessárias para calcular o desconto.
+
+function calcularDesconto() {
+
+
+
+4. Solicitar o Nome do Produto: Utiliza a função window.prompt() para solicitar ao usuário o nome do produto que está sendo comprado.
+
+const produto = window.prompt('Qual é o produto que você está comprando?');
+
+
+
+5. Verificação do Nome do Produto: Verifica se o usuário inseriu um nome válido ou se cancelou o prompt. Se o nome for válido, continua com o processo.
+
+if (produto !== null && produto !== '') {
+
+
+
+6. Solicitar o Preço do Produto: Utiliza a função window.prompt() novamente para solicitar ao usuário o preço do produto informado.
+
+const preco = parseFloat(window.prompt(`Qual é o preço de ${produto}?`));
+
+
+
+7. Verificação do Preço do Produto: Verifica se o preço inserido é um valor numérico válido. Se for, continua com o cálculo do desconto.
+
+if (!isNaN(preco)) {
+
+
+
+8. Cálculo do Desconto: Calcula o desconto de 10% sobre o preço original do produto.
+
+const desconto = preco * 0.1;
+
+
+
+9. Preço com Desconto: Calcula o preço final do produto após o desconto.
+
+const precoComDesconto = preco - desconto;
+
+
+
+10. Exibição do Resultado: Monta uma mensagem com o resultado do cálculo e a exibe na div de resultado.
+
+const mensagem = `<strong>Calculando desconto de 10% para ${produto}</strong><br><br>
+O preço original era R$ ${preco.toFixed(2)}<br><br>
+Você acaba de ganhar R$ ${desconto.toFixed(2)} de desconto (10%)<br><br>
+No fim, você vai pagar R$ ${precoComDesconto.toFixed(2)} no produto ${produto}.`;
+document.querySelector('.res').innerHTML = mensagem;
+
+
+
+11. Tratamento de Erros: Se o usuário inserir um nome de produto inválido ou cancelar qualquer um dos prompts, exibe uma mensagem de alerta.
+
+} else {
+    alert('Por favor, insira um valor numérico válido para o preço.');
+}
+} else {
+    alert('Insira um produto válido para continuar.');
+}
+}
+
+
+-->
