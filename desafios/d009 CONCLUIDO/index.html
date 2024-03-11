@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio reajuste salarial</title>
+</head>
+<style>
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    #botao {
+        width: 150px;
+        height: 50px;
+    }
+
+    .res {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <h1>Reajuste Salarial</h1>
+    <input type="button" value="Reajustar Salário" onclick="reajuste()" id="botao">
+    <div class="res">Clique no botão acima para iniciar.</div>
+
+    <script>
+        function reajuste() {
+            const nome = window.prompt('Qual é o nome do funcionário?');
+             
+             // Verifica se o nome está vazio
+            if (nome === '') {
+                exibirErro('Por favor, preencha o nome.');
+
+                return; // Sai da função se o nome estiver vazio.
+            }
+
+            const salario = parseFloat(window.prompt(`Qual é o salário de ${nome}?`));
+            
+            if (salario === '' || isNaN(salario)) {; // Significa: "Se o campo salario estiver vazio OU se o valor inserido não for um número válido.. Vai exibir a tela de erro para o usuário".
+                exibirErro('Por favor, insira um salário válido.');
+                return; // Sai da função se o nome estiver vazio.
+            }
+            
+            const porcentagem = parseFloat(window.prompt(`O salário de ${nome} vai ser reajustado em qual porcentagem?`));
+
+            // Calculando o novo salário.
+            const aumento = salario * (porcentagem / 100);
+            const novoSalario = salario + aumento;
+
+
+            // Formatando os números com toLocaleString() para exibir corretamente com ponto e vírgula
+            const salarioFormatado = salario.toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+            const aumentoFormatado = aumento.toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+            const novoSalarioFormatado = novoSalario.toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+
+            //Exibindo o resultado na div res.
+            const resultado = document.querySelector('.res');
+            resultado.innerHTML = 
+           ` <strong>${nome} recebeu um aumento salarial!</strong><br>
+            O salário atual era R$ ${salarioFormatado}.<br>
+            Com um aumento de ${porcentagem}%, o salário vai aumentar R$ ${aumentoFormatado} no próximo mês.<br>
+            E a partir dai, ${nome} vai passar a ganhar R$ ${novoSalarioFormatado}.`;
+        }
+
+    </script>
+
+</body>
+</html>
