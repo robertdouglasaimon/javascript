@@ -31,10 +31,22 @@
 
     <script>
         function calcular() {
-            const a = window.prompt('Qual é o valor de a');
-            const b = window.prompt('Qual é o valor de b');
-            const c = window.prompt('Qual é o valor de c');
-        }
+        const a = window.prompt('Qual é o valor de a');
+        const b = window.prompt('Qual é o valor de b');
+        const c = window.prompt('Qual é o valor de c');
+
+        const delta = b**2 - 4*a*c;
+
+        const mensagem = `     
+        <h2>Resolvendo Bhaskara</h2>
+        <p>A equação atual é ${a}x² + ${b}x + ${c} = 0</p>
+        <p>O cálculo realizado será Δ = (${b})² - 4 * ${a} * ${c}</p>
+        <p>O valor calculado foi Δ = ${delta}</p>`;
+
+        document.querySelector('.res').innerHTML = mensagem;
+}
+
+
     </script>
 </body>
 </html>
