@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Ano Bissexto</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    #botao {
+        width: 150px;
+        height: 50px;
+    }
+
+    .res {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .verde {
+        color: green;
+        font-weight: bold;
+    }
+
+    .vermelho {
+        color: red;
+        font-weight: bold;
+    }
+
+    .verde:hover {
+        background-color: rgb(108, 221, 108);
+    }
+
+    .vermelho:hover {
+        background-color: rgb(221, 149, 149);
+    }
+
+</style>
+<body>
+    <h1>Ano Bissexto</h1>
+    <input type="button" value="Verificar" id="botao" onclick="calcularAno()">
+    <div class="res">Informe um ano para saber se ele é Bissexto.</div>
+
+    <script>
+        function calcularAno(){
+            const ano = window.prompt('Qual é o ano que você quer verificar?')
+
+            // Verifica se o ano é bissexto
+            const bissexto = (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
+            
+            const mensagem = `Analisando o ano de "${ano}"...<br>`;
+            if (bissexto){
+                document.querySelector('.res').innerHTML = mensagem + `O ano de ${ano} <span class="verde" style="">É BISSEXTO</span> ✔️`;     
+            } else {
+                document.querySelector('.res').innerHTML = mensagem + `O ano de ${ano} <span class="vermelho">NÃO É BISSEXTO</span> ❌`;
+            }
+        }   
+    </script>
+</body>
+</html>
