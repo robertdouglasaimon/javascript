@@ -15,7 +15,7 @@ for (var c = 1; c <= 10; c++){
 /*var c = 1
 while (c <= 5) {
     // FOR
-    console.log(`Passo ${c}`);
+    console.log('c');
     c++
 }*/ 
 
