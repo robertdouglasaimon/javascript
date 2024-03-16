@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TESTE 1</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #botao {
+        width: 180px;
+        height: 65px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .res {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+</style>
+<body>
+    <h1>Aplicativo para testar <br> se estou compreendendo IF e ELSE.<br>Condições do JS =D</h1>
+    <h2> Será que a Érika ta online? Vamos ver.</h2>
+    <input type="button" value="Aperte para começar!" onclick="comecar()" id="botao">
+    <div class="res">Bora ver se ela ta viva! 👀🧐 '</div>
+
+    <script>
+        function comecar() {
+            const nome = window.prompt('A Érika está online? Olhe o status no WhatsApp e responda a caixa abaixo com "Sim" ou "Não"🙇🏽');
+
+            const msgSim = "E ai nega, como está? Como foi a semana? Tudo certo? Saudades de você. 😮💌";
+            const msgSimRes = "Ta ONLINE!✔️ A gostosa ta online! Bora aproveitar! 😎💕";
+            const msgNao = "Depois eu tento falar contigo, acho que você ta ocupada. Beijo pra ti pequena grande colosso!💞🤷🏻‍♂️";
+            const msgNaoRes = "Ta OFFLINE❌. Não foi dessa vez jovem Jedi, a gostosa ainda continua desaparecida, foi triste.😔";
+
+            if (nome && nome.toLowerCase() === "sim") {
+                window.alert(msgSim);
+                setTimeout(function() {
+                    let res = window.document.querySelector('.res');
+                    res.innerHTML = msgSimRes;
+                }, 100);
+            } else {
+                window.alert(msgNao);
+                setTimeout(function() {
+                    let res = window.document.querySelector('.res');
+                    res.innerHTML = msgNaoRes;
+                }, 100);
+            }
+
+            // let res = window.document.querySelector('.res');
+            // res.innerHTML = "";     
+        }
+    </script> 
+</body>
+<script src="script.js"></script>
+</html>
