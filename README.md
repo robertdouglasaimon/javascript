@@ -86,7 +86,7 @@ Além dos exercícios do curso, também realizei alguns exercícios externos par
     <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 12 - ex0014/index.html">Externo 1</a></li>
     <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 13 - ex0015/index.html">Externo 2</a></li>
     <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex01/index.html">Externo 3</a></li>
-    <li>Externo 4</li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex02/index.html">Externo 4</a></li>
     <li>Externo 5</li>
     <li>Externo 6</li>
     <li>Externo 7</li>
