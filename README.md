@@ -82,11 +82,11 @@ Além dos exercícios do curso, também realizei alguns exercícios externos par
 <br>
 <br>
 <ul>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/exe001 - Calculadora - IMC/index.html">Externo 0</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 12 - ex0014/index.html">Externo 1</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 13 - ex0015/index.html">Externo 2</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex01/index.html">Externo 3</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex02/index.html">Externo 4</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/exe001 - Calculadora - IMC/index.html" target="_blank">Externo 0</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 12 - ex0014/index.html" target="_blank">Externo 1</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 13 - ex0015/index.html" target="_blank">Externo 2</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex01/index.html" target="_blank">Externo 3</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex02/index.html" target="_blank">Externo 4</a></li>
     <li>Externo 5</li>
     <li>Externo 6</li>
     <li>Externo 7</li>
