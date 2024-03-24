@@ -26,12 +26,6 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
 }
 
-p > #btn1 {
-    width: 104px;
-    height: 20px;
-    align-items: center;
-}
-
 footer {
     color: rgb(255, 255, 255);
     text-align: center;
