@@ -26,22 +26,10 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
 }
 
-#foto {
-    display: flex;
-    justify-content: center;
-}
-
 p > #btn1 {
     width: 104px;
     height: 20px;
     align-items: center;
-}
-
-#msg {
-    text-align: center;
-    padding-bottom: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
 }
 
 footer {
