@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Quiz42",
+            "request": "launch",
+            "mainClass": "Quiz42",
+            "projectName": "javascript_7b39e75f"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
