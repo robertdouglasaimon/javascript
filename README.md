@@ -40,8 +40,7 @@ Os exercícios são uma parte crucial do aprendizado. Aqui estão os exercícios
                              <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex016 CONCLUIDO/funcao03.js">funcao03.js</a></li>
                              <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex016 CONCLUIDO/funcao04.js">funcao04.js</a></li>
                          </ul>
-    <li>Exercício 17: [ex017]</li>
-    <li>Exercício 18: [ex018]</li>
+    <li>Exercício 17: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex017 CONCLUIDO - FIM/objeto01.js">[ex017 - FIM]</a></li>
 </ul>
 
 <h3>Desafios</h3>
@@ -76,7 +75,7 @@ Para revisão e estudo extra, aqui estão as aulas em PDF relacionadas ao curso:
     <li>Aula 4: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/04 - Interações básicas com o usuário (CONCLUIDO).pdf">[04 - Interações básicas com o usuário (CONCLUIDO)]</a></li>
     <li>Aula 5: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/05 - Interações com a página (CONCLUIDO).pdf">[05 - Interações com a página (CONCLUIDO)]</a></li>
     <li>Aula 6: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/06 - Fazendo umas contas (EM ANDAMENTO).pdf">[06 - Fazendo umas contas (CONCLUIDO)]</a></li>
-    <li>Aula 7: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/07 - Ações, variáveis e dinamismo.pdf (CONCLUIDO)">[07 - Ações, variáveis e dinamismo (EM ANDAMENTO..)]</a></li>
+    <li>Aula 7: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/07 - Ações, variáveis e dinamismo.pdf (CONCLUIDO)">[07 - Ações, variáveis e dinamismo (CONCLUIDO)]</a></li>
 </ul>
 
 <h2>Exercícios Externos</h2>
