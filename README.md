@@ -26,8 +26,8 @@ Os exercícios são uma parte crucial do aprendizado. Aqui estão os exercícios
     <li>Exercício 11: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex011 CONCLUIDO">[ex011]</a></li>
     <li>Exercício 12: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex012 CONCLUIDO">[ex012]</a></li>
     <li>Exercício 13: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex013 CONCLUIDO">[ex013]</a></li>
-    <li>Exercício 14: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex014 CONCLUIDO/index.html">[ex014 (Terminal VSCode/NodeJS)]</a></li>
-    <li>Exercício 15: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA">[ex015]</a></li>
+    <li>Exercício 14: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex014 CONCLUIDO/index.html">[ex014]</a></li>
+    <li>Exercício 15: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA">[ex015 (Terminal VSCode/NodeJS)]</a></li>
                          <ul>
                              <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA/aula.js">aula.js</a></li>
                              <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA/aula1.js">aula1.js</a></li>
