@@ -26,21 +26,22 @@ Os exercícios são uma parte crucial do aprendizado. Aqui estão os exercícios
     <li>Exercício 11: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex011 CONCLUIDO">[ex011]</a></li>
     <li>Exercício 12: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex012 CONCLUIDO">[ex012]</a></li>
     <li>Exercício 13: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex013 CONCLUIDO">[ex013]</a></li>
-    <li>Exercício 14: [ex014]</li>
-    <li>Exercício 15: [ex015]</li>
-    <li>Exercício 16: [ex016]</li>
+    <li>Exercício 14: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex014 CONCLUIDO/index.html">[ex014 (Terminal VSCode/NodeJS)]</a></li>
+    <li>Exercício 15: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA">[ex015]</a></li>
+                         <ul>
+                             <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA/aula.js">aula.js</a></li>
+                             <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA/aula1.js">aula1.js</a></li>
+                             <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex015 CONCLUIDO/VARIAVEL COMPOSTA/index.js">index.js</a></li>
+                         </ul>
+    <li>Exercício 16: <a href="https://robertdouglasaimon.github.io/javascript/">[ex016 (Terminal VSCode/NodeJS)]</a></li>
+                         <ul>
+                             <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex016 CONCLUIDO/funcao01.js">funcao01.js</a></li>
+                             <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex016 CONCLUIDO/funcao02.js">funcao02.js</a></li>
+                             <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex016 CONCLUIDO/funcao03.js">funcao03.js</a></li>
+                             <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex016 CONCLUIDO/funcao04.js">funcao04.js</a></li>
+                         </ul>
     <li>Exercício 17: [ex017]</li>
     <li>Exercício 18: [ex018]</li>
-    <li>Exercício 19: [ex019]</li>
-    <li>Exercício 20: [ex020]</li>
-    <li>Exercício 21: [ex021]</li>
-    <li>Exercício 22: [ex022]</li>
-    <li>Exercício 23: [ex023]</li>
-    <li>Exercício 24: [ex024]</li>
-    <li>Exercício 25: [ex025]</li>
-    <li>Exercício 26: [ex026]</li>
-    <li>Exercício 27: [ex027]</li>
-    <li>Exercício 28: [ex028]</li>
 </ul>
 
 <h3>Desafios</h3>
@@ -73,8 +74,8 @@ Para revisão e estudo extra, aqui estão as aulas em PDF relacionadas ao curso:
     <li>Aula 3: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/03 - Primeiros passos com JS (CONCLUIDO).pdf">[03 - Primeiros passos com JS (CONCLUIDO)]</a></li>
     <li>Aula 4: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/04 - Interações básicas com o usuário (CONCLUIDO).pdf">[04 - Interações básicas com o usuário (CONCLUIDO)]</a></li>
     <li>Aula 5: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/05 - Interações com a página (CONCLUIDO).pdf">[05 - Interações com a página (CONCLUIDO)]</a></li>
-    <li>Aula 6: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/06 - Fazendo umas contas (EM ANDAMENTO).pdf">[06 - Fazendo umas contas (EM ANDAMENTO)]</a></li>
-    <li>Aula 7: [07 - Ações, variáveis e dinamismo (AGUARDANDO..)]</li>
+    <li>Aula 6: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/06 - Fazendo umas contas (EM ANDAMENTO).pdf">[06 - Fazendo umas contas (CONCLUIDO)]</a></li>
+    <li>Aula 7: <a href="https://robertdouglasaimon.github.io/javascript/aulas-pdf/07 - Ações, variáveis e dinamismo.pdf (CONCLUIDO)">[07 - Ações, variáveis e dinamismo (EM ANDAMENTO..)]</a></li>
 </ul>
 
 <h2>Exercícios Externos</h2>
@@ -82,17 +83,20 @@ Além dos exercícios do curso, também realizei alguns exercícios externos par
 <br>
 <br>
 <ul>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/exe001 - Calculadora - IMC/index.html" target="_blank">Externo 0</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 12 - ex0014/index.html" target="_blank">Externo 1</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 13 - ex0015/index.html" target="_blank">Externo 2</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex01/index.html" target="_blank">Externo 3</a></li>
-    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/Aula 14 - ex02/index.html" target="_blank">Externo 4</a></li>
-    <li>Externo 5</li>
-    <li>Externo 6</li>
-    <li>Externo 7</li>
-    <li>Externo 8</li>
-    <li>Externo 9</li>
-    <li>Externo 10</li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/CALCULADORA - IMC/index.html" target="_blank">Externo 0</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/RELOGIO COM BACKGROUND DINÂMICO/index.html" target="_blank">Externo 1</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/Aula 12 - ex0014/index.html" target="_blank">Externo 2</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/Aula 13 - ex0015/index.html" target="_blank">Externo 3</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/Aula 13 - ex0016/ambiente.js" target="_blank">Externo 4</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/Aula 14 - ex01/index.html" target="_blank">Externo 5</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/Aula 14 - ex02/index.html" target="_blank">Externo 6</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/CONTADOR DE IDADE/index.html">Externo 7</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/DADO/Dados.html">Externo 8</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/MAIOR/index.html">Externo 9</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/MEDIA ALUNO 1/Numeros com JS.html">Externo 10</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/MEDIA DO ALUNO/index.html">Externo 11</a></li>
+    <li><a href="https://robertdouglasaimon.github.io/javascript/exercicios externos/EXER.EXTERNO PASSADO PELO PROFESSOR NUNCA APAGAR/parimpar/index.html">Externo 12</a></li>
+
 </ul>
 
 <h2>Projetos</h2>
