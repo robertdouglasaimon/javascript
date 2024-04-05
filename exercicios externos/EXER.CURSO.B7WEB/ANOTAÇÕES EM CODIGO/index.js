@@ -59,3 +59,49 @@ function casa() {
 
  //-----------------------------------------------------------
 
+ /*
+ 
+ Arrow Function ---------------------//
+
+ const somar = (x, y) => {
+     return x + y;
+}
+
+console.log(somar(10, 5));
+
+*/
+
+
+ //FUNÇÃO COM PARAMETROS (FORMA COMO O BONIEKE TA ENSINANDO)
+ 
+ /*
+ 
+ let a = 10
+ let b = 5
+ let resultado = somar(a, b);
+
+ function somar(x, y) {
+  return x + y;  
+}
+
+console.log(`Resultado da soma com parâmetros:" ${a} + ${b} = ${resultado}`);
+
+*/
+
+
+//FUNÇÃO SEM PARAMETROS (FORMA COMO O GUANABARA ENSINOU)
+
+/* 
+
+let c = 5
+let d = 5
+
+function soma1() {
+  let resultado = c + d;
+  return resultado;
+}
+
+console.log(`Resultado da soma sem parâmetros:" ${a} + ${b} = ${resultado}`);
+
+*/
+
