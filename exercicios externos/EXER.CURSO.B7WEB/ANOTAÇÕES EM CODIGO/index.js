@@ -153,7 +153,7 @@ novamente para acessar ''yy'' do SEGUNDO ARRAY :)
 Sobre os processos acima: AMBOS SÃO A MESMA COISA, só mudei a forma visual de ver para manter a organização mesmo dentro do código.
 
 -----------------------------------------------------------*/
-
+/*
 //OPERAÇÕES BÁSICAS DE ARRAY
 let ingredientes = [
   'agua',
@@ -178,6 +178,57 @@ ingredientes.push('cebola'); // <-- Comando MAIS INDICADO para adição de itens
 console.log(ingredientes)
 console.log(`Total de ingredientes:  ${ingredientes.length}`); // .length - Usado para puxar a contagem dos itens dentro do Array. Isso inclui os itens  já existente e os itens adicionados depois.
 
+*/
+
+/* 
+
+OBJETO - JAVASCRIPT
+//Exemplo de objeto no JS:
+let personagem = { // Objeto principal.
+  nome: 'Douglas',
+  idade: 90,
+  pais: 'Brasil',
+  olhos:['preto','azul'], // Um array dentro de um objeto.
+  caracteristicas: { // Um objeto dentro de um objeto.
+    forca: 20,
+    magia: 5,
+    stamina: 15
+  }
+}
+
+console.log(`${personagem.nome} tem ${personagem.idade} anos.`);
+console.log(personagem.caracteristicas.magia) //Chamando um objeto dentro de um objeto.
+console.log(personagem.olhos[1]) // Chamando um array e seus atributos dentro de um objeto.
 
 
+// Adicionando atributos a um objeto ou ao seus filhos.   
+//Por exemplo:
+let personagem = { 
+  nome: 'Douglas',
+  idade: 90,
+  pais: 'Brasil',
+  olhos:['preto','azul'], 
+  caracteristicas: { 
+    forca: 20,
+    magia: 5,
+    stamina: 15
+  }
+}
 
+personagem.nome = 'Pedro'; //Modifica o atributo 'Douglas' para 'Pedro' que está dentro do objeto principal.
+personagem.caracteristicas.forca += 5; //Aumentou +5 de força do atributo força dentro do segundo objeto que está dentro do objeto.
+personagem.olhos.push('verde'); //Adicionou mais um olho ao ARRAY dentro do objeto.
+console.log(personagem.olhos);
+
+*/
+
+let personagem = {
+  nome: 'Douglas',
+  idade: 90,
+  carros: [
+    {modelo:'Fiat', cor:'preto'},
+    {modelo: 'Ferrari', cor: 'vermelho'}
+  ]
+}
+
+personagem.carros[1].cor
