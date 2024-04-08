@@ -231,4 +231,4 @@ let personagem = {
   ]
 }
 
-personagem.carros[1].cor
+personagem.carros[1].cor 
