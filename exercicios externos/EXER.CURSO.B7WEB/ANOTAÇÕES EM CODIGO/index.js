@@ -222,6 +222,9 @@ console.log(personagem.olhos);
 
 */
 
+/*
+PRATICANDO OBJETOS UM POUCO MAIS E COM UM POUCO MAIS DE COMPLEXIDADE =D
+
 let personagem = {
   nome: 'Douglas',
   idade: 90,
@@ -231,4 +234,6 @@ let personagem = {
   ]
 }
 
-personagem.carros[1].cor 
+console.log(personagem.carros[1].modelo);
+
+*/
