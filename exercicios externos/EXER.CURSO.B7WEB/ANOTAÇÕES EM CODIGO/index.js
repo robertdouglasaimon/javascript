@@ -237,3 +237,18 @@ let personagem = {
 console.log(personagem.carros[1].modelo);
 
 */
+
+/* FUNÇÃO DENTRO DE OBJETO --------------------------------//
+
+let pessoa = {
+    nome:'Robert',
+    sobrenome:'Douglas',
+    idade: 90,
+    nomeCompleto: function() { // Função dentro do objeto.
+    return `${this.nome} ${this.sobrenome}`; // "This" acessa o proprio objeto.
+  }
+}
+
+console.log(pessoa.nomeCompleto()); //Por fim, usando ''this'' ele pega o nome, pega o sobre nome, concatena e forma o nome completo, ou frase ou seja lá o que você queira fazer no template string. Aqui no caso ele formou o nome completo ''Robert Douglas''.
+
+-----------------------------------------------------------*/
