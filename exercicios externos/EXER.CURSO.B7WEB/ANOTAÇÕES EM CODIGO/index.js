@@ -252,3 +252,99 @@ let pessoa = {
 console.log(pessoa.nomeCompleto()); //Por fim, usando ''this'' ele pega o nome, pega o sobre nome, concatena e forma o nome completo, ou frase ou seja lá o que você queira fazer no template string. Aqui no caso ele formou o nome completo ''Robert Douglas''.
 
 -----------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------//
+O LOOP FOR 
+
+//O Loop é um conjunto de parametros que servem para criar um ciclo infinito (Ou repetitivo até certo ponto de alguma atividade especifica) de alguma atividade.
+//O LOOP FOR é compostos de 3 condicionais que são:
+// A VARIAVEL / A CONDIÇÃO / O INCREMENTO.
+for (let n = 1; n <= 10; n++ ) {
+  console.log('Número ' + n);
+}
+
+-------------------------------------------------------*/
+
+/*--------------------------------------------------------//
+DANDO LOOP EM ARRAYS
+
+let cores = ['preto','branco','azul','vermelho'];
+cores.push('verde')
+
+/*
+Metodo tradicional de fazer looping em array.
+
+for (let n = 0; n < cores.length; n++ ) {
+  console.log(cores[n]);
+}
+
+
+
+/*
+Metodo INTELIGENTE de fazer looping com array. Aqui usamos as "chaves" das cores como valor para o [i] e fazemos o looping.
+
+for(let i in cores) {
+  console.log(cores[i]);
+}
+
+
+// Metodo INTELIGENTE de fazer looping com array. Exatamente igual ao anterior, aqui só muda que estamos usando os objetos, as cores ''cores'' em sí como valor para [i].
+
+for (let cor of cores) {
+  console.log(cor);
+}
+//AMBOS são a mesma coisa, mas usando tecnicas diferentes.
+
+*/
+
+
+
+// AGORA VAMOS ULTILIZAR ESSE CONHECIMENTO DE LOOPING DENTRO DE UM ARRAY MAIS ELABORADO:
+
+/*
+let cores = [
+    {nome:'preto', qt: 10},
+    {nome:'azul', qt: 5},
+    {nome:'vermelho', qt: 15},
+];
+*/
+
+/*
+//Metodo tradicional de fazer looping em array.
+
+for (let n = 0; n < cores.length; n++ ) {
+  console.log(cores[n].nome);
+}
+*/
+
+/*
+//Metodo INTELIGENTE de fazer looping com array. Aqui usamos as "chaves" das cores como valor para o [i] e fazemos o looping.
+
+for(let i in cores) {
+  console.log(cores[i].nome);
+}
+*/
+
+/* 
+//Metodo INTELIGENTE de fazer looping com array. Exatamente igual ao anterior, aqui só muda que estamos usando os objetos, as cores ''cores'' em sí como valor para [i].
+
+for (let cor of cores) { 
+  console.log(`Nome: ${cor.nome} - ${cor.qt}`);
+}
+*/
+
+//USANDO LOOPING PARA ALTERAR ALGUMA INFORMAÇÃO:
+let cores = [
+  {nome:'preto', qt: 10},
+  {nome:'azul', qt: 5},
+  {nome:'vermelho', qt: 15},
+];
+
+for(let i in cores) { //Por exemplo, colocando os nomes das cores em maiusculo.
+  cores[i].nome = cores[i].nome.toUpperCase();
+  console.log(cores[i].nome);
+}
