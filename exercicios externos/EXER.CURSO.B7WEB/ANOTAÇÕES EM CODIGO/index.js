@@ -258,9 +258,12 @@ console.log(pessoa.nomeCompleto()); //Por fim, usando ''this'' ele pega o nome, 
 
 
 /*-------------------------------------------------------//
-O LOOP FOR 
+O FOR (lOOPING FOR)
 
 //O Loop é um conjunto de parametros que servem para criar um ciclo infinito (Ou repetitivo até certo ponto de alguma atividade especifica) de alguma atividade.
+
+//No caso do FOR: Enquanto for TRUE e a condição estiver sendo satisfeita, ele continuará executando. Enquanto for TRUE, ele rodará até.. Ou o parametro acabar ou até o infinito.
+
 //O LOOP FOR é compostos de 3 condicionais que são:
 // A VARIAVEL / A CONDIÇÃO / O INCREMENTO.
 for (let n = 1; n <= 10; n++ ) {
@@ -335,7 +338,7 @@ for(let i in cores) {
 for (let cor of cores) { 
   console.log(`Nome: ${cor.nome} - ${cor.qt}`);
 }
-*/
+
 
 //USANDO LOOPING PARA ALTERAR ALGUMA INFORMAÇÃO:
 let cores = [
@@ -347,4 +350,17 @@ let cores = [
 for(let i in cores) { //Por exemplo, colocando os nomes das cores em maiusculo.
   cores[i].nome = cores[i].nome.toUpperCase();
   console.log(cores[i].nome);
+}
+
+*/
+
+/*-------------------------------------------------------*/
+
+/*WHILE (LOOPING WHILE) --------------------------------*/
+//Enquanto a condição estiver sendo satisfeita, ele continuará executando. Enquanto for TRUE, ele rodará até.. Ou o parametro acabar ou até o infinito.
+
+let numero = 0
+while (numero <= 10) {
+  console.log(`O número da vez é ${numero}!`);
+  numero++;
 }
