@@ -168,6 +168,26 @@ ingredientes.shift(); // REMOVE O PRIMEIRO ITEM DO ARRAY. No caso aqui, vai remo
 
 ingredientes.pop(); // REMOVE O ULTIMO ITEM DO ARRAY. No caso aqui, vai remover o ''sal'' se deixar ativada.
 
+push(): Adiciona um elemento ao final do array.
+
+unshift(): Adiciona um elemento ao início do array.
+
+pop(): Remove o último elemento do array.
+
+shift(): Remove o primeiro elemento do array.
+
+slice(): Cria uma nova array com uma parte do array atual.
+
+indexOf(): Encontra o índice de um elemento no array.
+
+forEach(): Chama uma função para cada elemento do array.
+
+map(): Cria um novo array com os resultados da aplicação de uma função a cada elemento do array.
+
+filter(): Cria um novo array com os elementos do array atual que atendem a uma determinada condição.
+
+reduce(): Aplica uma função a cada elemento do array e retorna um resultado único.
+
 // ADICIONANDO MAIS ITENS NO ARRAY (deve se colocar a adição antes do log para ela ser feita a lista!)
 
 ingredientes.push('cebola'); // <-- Comando MAIS INDICADO para adição de itens a um Array.
@@ -356,7 +376,7 @@ for(let i in cores) { //Por exemplo, colocando os nomes das cores em maiusculo.
 
 /*-------------------------------------------------------*/
 
-/*WHILE (LOOPING WHILE) --------------------------------*/
+/*WHILE (LOOPING WHILE) --------------------------------
 //Enquanto a condição estiver sendo satisfeita, ele continuará executando. Enquanto for TRUE, ele rodará até.. Ou o parametro acabar ou até o infinito.
 
 let numero = 0
@@ -364,3 +384,78 @@ while (numero <= 10) {
   console.log(`O número da vez é ${numero}!`);
   numero++;
 }
+
+*/
+
+/*Ordenação de Array----------------------------------------
+
+let fruits = ['Maça', 'Uva','Laranja','Banana'];
+
+fruits.sort(); // RE-ordena o Array para ordem alfabetica, trocando os ID dos itens de posição, assim como os proprios itens mesmo de lugar. (Ordem Crescente)
+
+fruits.reverse(); //Inverte todo o Array de posição, trocando os ID dos itens de posição, assim como os proprios itens mesmo de lugar. (Ordem Decrescente)
+
+console.log(fruits);
+
+-------------------------------------------------------------
+*/
+
+/*
+// Para trocar OBJETOS de posição dentro de um array, podemos usar funções para parametrar uma determinada a troca de Posição.
+
+//Para o objeto se mover para frente ou para trás, precisamos inserir 3 valores nele que determinam a posição na qual você quer mover, sendo elas:  1 - AVANÇA, -1 VOLTA UM e 0 FICA NEUTRO (PARADO ONDE ESTÁ).
+
+//No exemplo abaixo, usamos um Arrow function com os parametros (a, b), sendo "a" o item que está antes e "b" o item que está depois, e em seguida especificamos no if: "SE "a" for maior que "b", que retorne 1 para poder avançar uma casa, caso contrario, -1 para voltar uma. 
+
+//Fazendo assim, pelo ANO, ele vai comparar, e sabendo que o 2022 (FIAT) é maior que o 2018, ele o joga para frente pois ele é o maior de todos, ai no próximo ele compara se o ano de 2018 (BMW) é maior que o ano de 2022 (O FIAT que agora se tornou o 1º por ter o ano maior), o que não é, cumprindo a condição else if, e voltando um (-1) trocando de lugar com a Ferrari que é 2020, é maior que 2018 mas é menor que 2022 (FIAT).
+
+let cars = [
+  {brand: 'Fiat', year: 2022},
+  {brand: 'BMW', year: 2018},
+  {brand: 'Ferrari', year: 2020}, 
+]
+
+cars.sort((a, b) => { 
+    if (a.year > b.year) {
+      return 1;
+    } else if (a.year < b.year) {
+      return -1;
+    }
+});
+
+console.log(cars);
+
+
+//Simplificando a operação:
+cars.sort((a, b) => { 
+  return a.year - b.year;
+});
+
+console.log(cars);
+
+//As duas formas são praticamente a mesma coisa, porém a debaixo é mais objetiva e consome menos memoria, e a de cima é mais completa e explicativa.
+*/
+
+//----------------------------------------------------------//
+
+/*Iteração de array --------------------------------------*/
+
+//Aqui, usamos a propriedade filter() para criar um novo Array usando informações de um Array existente. Como essa propriedade é dependente, precisamos declarar uma nova variavel para usa-lá e colocar suas propriedades em ação. Então assim, criamos a nova variavel '' bigfruits '' para poder demonstrar o que a filter() é capaz. Exemplos abaixo:
+
+//Aqui, filtraremos o array fruits por caracteres. Especificando que a propriedade crie um novo array apenas com as palavras que tem MAIS de 4 letras.
+
+let fruits = ['Banana', 'Laranja','Maça','Pêra'];
+
+let bigfruits = fruits.filter((item) => {
+    return item.length > 4; // Forma objetiva, simplificada e limpa de fazer.
+
+    if(item.length > 4) { // Forma completa e autoexplicativa de fazer.
+      return true;
+    } else {
+      return false;
+    }
+
+    //Ambas as formas fazem a mesma coisa, mas eu prefiro a segunda que apesar de maior, é autoexplicativa.
+});
+
+console.log(bigfruits);
