@@ -1,5 +1,5 @@
 <h1>**Meu Repositório de JavaScript**</h1>
-
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="30" height="30">
 <p>
     Bem-vindo ao meu repositório de JavaScript em parceria com a CursoemVideo, do professor Gustavo Guanabara, e Google. Aqui, compartilho meus exercícios, desafios e aulas em PDF relacionados ao aprendizado desta linguagem fundamental para o desenvolvimento web e de aplicações.
     
