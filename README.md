@@ -106,8 +106,8 @@ Projetos são uma parte emocionante do aprendizado, permitindo a aplicação pr�
 <ul>
     <li>Projeto 1 - Projeto Pokedex: <a href="https://robertdouglasaimon.github.io/PROJETO-POKEDEX/">[Projeto Pokedex]</a></li>
     <li>Projeto 2 - Gerador de Senhas: <a href="https://robertdouglasaimon.github.io/PROJETO-GERADOR-DE-SENHAS/">[Gerador de Senhas]</a></li>
-    <li>Projeto 3 - Portfólio Protótipo: <a href="https://robertdouglasaimon.github.io/PROJETO-PRIMEIRO-SITE/index.html">[Portfólio Protótipo]</a></li>
-    <li>Projeto 4 - Página de Esportes: <a href="https://robertdouglasaimon.github.io/PROJETO-BLOG-PESSOAL/">[Página de Esportes]</a></li>
+    <li>Projeto 3 - Portfólio/Microsite: <a href="https://robertdouglasaimon.github.io/projeto-microsite/">[Portfólio Protótipo]</a></li>
+    <li>Projeto 4 - Diário de Esportes: <a href="https://robertdouglasaimon.github.io/projeto-diariopessoal-de-esportes/">[Página de Esportes]</a></li>
 </ul>
 <br>
 <p>Sinta-se à vontade para explorar cada projeto e acompanhar meu progresso ao longo do tempo.</p>
