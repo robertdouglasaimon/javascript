@@ -461,3 +461,9 @@ let bigfruits = fruits.filter((item) => {
 console.log(bigfruits);
 */
 
+ function clicou() {
+  const input = document.querySelector('input');
+  const botao = document.querySelector('botao');
+
+  
+ }
