@@ -438,7 +438,7 @@ console.log(cars);
 
 //----------------------------------------------------------//
 
-/*Iteração de array --------------------------------------*/
+/* Iteração de array --------------------------------------//
 
 //Aqui, usamos a propriedade filter() para criar um novo Array usando informações de um Array existente. Como essa propriedade é dependente, precisamos declarar uma nova variavel para usa-lá e colocar suas propriedades em ação. Então assim, criamos a nova variavel '' bigfruits '' para poder demonstrar o que a filter() é capaz. Exemplos abaixo:
 
@@ -459,3 +459,5 @@ let bigfruits = fruits.filter((item) => {
 });
 
 console.log(bigfruits);
+*/
+
