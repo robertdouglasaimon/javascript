@@ -465,10 +465,4 @@ console.log(bigfruits);
 //     let botao = document.querySelector('.botao');
 // }
 
-function soltou(e) {
-  console.log('TECLA APERTADA: ' +e.code);
-  console.log('SHIFT? ' +e.shiftKey);
-  console.log('--');
-}
-let input = document.querySelector('input');
-input.addEventListener('keyup', soltou);
+/*----------------------------------------------------------*/
