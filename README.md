@@ -1,14 +1,16 @@
 <h1>**Meu Repositório de JavaScript**</h1>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width="30" height="30">
 <p>
-    Bem-vindo ao meu repositório de JavaScript em parceria com a CursoemVideo, do professor Gustavo Guanabara, e Google. Aqui, compartilho meus exercícios, desafios e aulas em PDF relacionados ao aprendizado desta linguagem fundamental para o desenvolvimento web e de aplicações.
+    Bem-vindo ao meu repositório do curso de JavaScript do CursoemVideo/B7 Web, do professor Gustavo Guanabara e Google mais Professor Bonieky Lacerda. Aqui, compartilho meus exercícios, desafios e aulas em PDF relacionados ao aprendizado desta linguagem fundamental para o desenvolvimento web e de aplicações.
     
     "JavaScript, junto com HTML e CSS, forma o trio essencial para qualquer programador iniciante, permitindo a criação de interações dinâmicas e responsivas em páginas da web."  — Prof. Gustavo Guanabara
+
+    "Não adianta nada você ver todas as aulas aqui e não praticar! Lembre-se: A prática leva a perfeição, o dominio e o entendimento do que se está propondo a aprender. Você consegue." — Prof. Bonieky Lacerda
 </p>
 
 <h2>## Sobre o Repositório de JavaScript</h2>
 
-<h3>Exercícios</h3>
+<h3>Exercícios do CV</h3>
 Os exercícios são uma parte crucial do aprendizado. Aqui estão os exercícios que realizei até o momento:
 <br>
 <br>
@@ -43,7 +45,16 @@ Os exercícios são uma parte crucial do aprendizado. Aqui estão os exercícios
     <li>Exercício 17: <a href="https://robertdouglasaimon.github.io/javascript/exercicios/ex017 CONCLUIDO - FIM/objeto01.js">[ex017 - FIM]</a></li>
 </ul>
 
-<h3>Desafios</h3>
+<h3>Exercícios do B7 Web</h3>
+    <li>#7 Exercício de funções # 4 (CONCLUIDO)</li>
+    <li>#8 Exercício de funções # 5 (CONCLUIDO)</li>
+    <li>#9 Exercício de funções #6 (mais fácil) (CONCLUIDO)</li>
+    <li>#13 e 14 Exercício | Resolução Lista de Tarefas Simples (CONCLUIDO)</li>
+    <li>#15 Exercício de array #7 (CONCLUIDO)</li>
+    <li>#18 Exercício de condicional # 2 (CONCLUIDO)</li>
+    <li>#22 Exercício de loops #8 (CONCLUIDO)</li>
+
+<h3>Desafios do CV</h3>
 Os desafios proporcionam oportunidades para aplicar o conhecimento adquirido de forma mais complexa. Aqui estão os desafios concluídos:
 <br>
 <br>
@@ -99,7 +110,22 @@ Além dos exercícios do curso, também realizei alguns exercícios externos par
 
 </ul>
 
-<h2>Projetos</h2>
+<h2>Projetos B7 Web</h2>
+    <li>#10, 11, 12, 13, 14, 15, 22, 23, 24, 25: Projeto: Luta</li>
+    <li>#13 e 14: Projeto: Blog do JSONPlaceholder 1 e 2</li>
+    <li>#1: Projeto 1 - Bateria</li>
+    <li>#2: Projeto 2 - Relógio</li>
+    <li>#3: Projeto 3 - Clima</li>
+    <li>#4: Projeto 4 - Jogo da velha</li>
+    <li>#5: Projeto 5 - Quadro de desenho</li>
+    <li>#6: Projeto 6 - Quiz</li>
+    <li>#7: Projeto 7 - Arrasta e Solta</li>
+    <li>Projeto: Compra de Pizzas</li>
+    <li>Projeto: Urna Eletrônica</li>
+    <li>Projeto: Slideshow</li>
+    <li>Projeto: Validador de Formulários</li>
+
+<h2>Projetos Externos</h2>
 Projetos são uma parte emocionante do aprendizado, permitindo a aplicação prática do conhecimento adquirido. Aqui estão meus projetos em andamento:
 <br>
 <br>
