@@ -1,5 +1,5 @@
 let char = criarPaladino('Douglas');
-let  monster = MonstroMenor();
+let  monster = MonstroMaior();
 
 stage.start(
     char,

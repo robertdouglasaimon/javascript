@@ -14,8 +14,8 @@ let criarPaladino = (name) => {
         name,
         life: 100,
         maxLife: 100,
-        attack: 7,
-        defense: 10,
+        attack: 20,
+        defense: 30,
         agility:3
     }
 }
@@ -27,9 +27,9 @@ let criarCavaleiro = (name) => {
         name,
         life: 100,
         maxLife: 100,
-        attack: 10,
-        defense: 8,
-        agility: 5
+        attack: 30,
+        defense: 20,
+        agility: 10
     }
 }   
 
@@ -38,11 +38,11 @@ let criarMago = (name) => {
     return {
         ...defaultCharacter,
         name,
-        life: 80,
+        life: 90,
         maxLife: 80,
         attack: 5,
-        mattack: 10,
-        defese: 3,
+        mattack: 30,
+        defese: 10,
         agility: 1
     }
 }
@@ -54,9 +54,9 @@ let criarCaçador = (name) => {
         name,
         life: 90,
         maxLife: 90,
-        attack: 8,
+        attack: 20,
         defese: 3,
-        agility: 10
+        agility: 30
     }
 }
 
@@ -133,7 +133,42 @@ const stage =  {
     },
 
     doAttack(attacking, attacked){
-        
+        if(attacking.life <= 0 || attacked.life <= 0) {
+           log.addMessage('Morto não pode atacar!');
+            return;
+        }
+
+        const attackFactor = (Math.random() *2).toFixed(2);
+        const defenseFactor = (Math.random() *2).toFixed(2);
+
+        const actualAttack = attacking.attack * attackFactor;
+        const actualDefense = attacked.defense * defenseFactor;
+
+        if(actualAttack > actualDefense) {
+            attacked.life -=actualAttack;
+            attacked.life = attacked.life < 0 ? 0 : attacked.life;
+            log.addMessage(`${attacking.name} causou ${actualAttack.toFixed(2)} de dano!`)
+        } else {
+            log.addMessage(`${attacked.name} conseguiu defender...`);
+        }
+
         this.update();
+    }
+}
+
+const log = { //LOG DO JOGO
+    list: [],
+    addMessage(msg) {
+        this.list.push(msg);
+        this.render();
+    },
+    render() {
+        const logEl = document.querySelector('.log');
+        logEl.innerHTML = '';
+
+
+        for(let i in this.list) {
+            logEl.innerHTML += `<li>${this.list[i]}</li>`;
+        }
     }
 }
