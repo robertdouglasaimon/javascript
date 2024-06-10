@@ -1,18 +1,23 @@
-function clicou() {
-    fetch('https://jsonplaceholder.typicode.com/posts')
-        .then((response) => {
-        return response.json();
-        })
-        .then((json) => {
-        alert(`Titulo do primeiro post: ${json[0].title}`);
-        })
-        .catch(() => {
-            alert('Deu problema na requisição!');
-        })
+async function clicou() {
+    let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    let json = await response.json();;
+    alert(`Titulo do primeiro post: ${json[0].title}`);
+
+    // .then((response) => {
+    //     return response.json();
+    //     })
+    //     .then((json) => {
+    //     alert(`Titulo do primeiro post: ${json[0].title}`);
+    //     })
+    //     .catch(() => {
+    //         alert('Deu problema na requisição!');
+    //     })
+
+    alert('Clicou!');
 }
 
-function inserir() {
-    fetch('https://jsonplaceholder.typicode.com/posts', 
+async function inserir() {
+    let response = await fetch('https://jsonplaceholder.typicode.com/posts', 
         {
             method: 'POST',
             headers: {
@@ -24,13 +29,17 @@ function inserir() {
                 id: 101,
                 userId: 2
             })
-    })
-    .then((response) => {
-        return response.json();
-    })
-    .then((json) => {
-        console.log(json);
     });
+let json = await response.json();
+
+console.log(json);
+
+    // .then((response) => {
+    //     return response.json();
+    // })
+    // .then((json) => {
+    //     console.log(json);
+    // });
 }
 
 
