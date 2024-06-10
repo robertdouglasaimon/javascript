@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas de JS</title>
+</head>
+<body>
+    <h1>Tipos de status de uma requisição - Modulo 5</h1>
+    <h2>Principais sinalizadores</h2>
+    <h3>
+        <p>200 OK</p>
+    </h3>
+        <p>A solicitação foi bem-sucedida. O significado do resultado de "sucesso" depende do método HTTP:</p>
+        <li><b>GET</b>: O recurso foi obtido e transmitido no corpo da mensagem.</li>
+        <br>
+        <li><b>HEAD</b>: Os cabeçalhos de representação são incluídos na resposta sem nenhum corpo de mensagem.</li>
+        <br>
+        <li><b>PUT</b> ou POST: O recurso que descreve o resultado da ação é transmitido no corpo da mensagem.</li>
+        <br>
+        <li><b>TRACE</b>: O corpo da mensagem contém a mensagem de requisição recebida pelo servidor.</li>
+
+<br>
+
+    <h3>201 Created (Alguns servidores usam, mas poucos.)</h3>
+    <p>A requisição foi bem sucedida e um novo recurso foi criado como resultado. Esta é normalmente a resposta enviada após as solicitações POST ou algumas solicitações PUT.</p>
+
+<h3>206 Partial Content (Pouco Utilizada, mas importante saber)</h3>
+    <p>Este código de resposta é usado quando o cabeçalho Range é enviado do cliente para solicitar apenas parte de um recurso.</p>
+
+<h3>301 Moved Permanently</h3>
+    <p>A URL do recurso solicitado foi alterada permanentemente. A nova URL é fornecida na resposta.</p>
+
+<h3>400 Bad Request (Requisição errada)</h3>
+<p>O servidor não pode ou não irá processar a solicitação devido a algo que é percebido como um erro do cliente (por exemplo, sintaxe de solicitação malformada, enquadramento de mensagem de solicitação inválida ou roteamento de solicitação enganosa).</p>
+
+<h3>401 Unauthorized</h3>
+<p>Embora o padrão HTTP especifique "unauthorized", semanticamente, essa resposta significa "unauthenticated". Ou seja, o cliente deve se autenticar para obter a resposta solicitada.</p>
+
+<h3>403 Forbidden</h3>
+<p>O cliente não tem direitos de acesso ao conteúdo; ou seja, não é autorizado, portanto o servidor está se recusando a fornecer o recurso solicitado. Ao contrário do 401 Unauthorized, a identidade do cliente é conhecida pelo servidor.</p>
+
+<h3>404 Not Found (Famosa essa, famosa!)</h3>
+<p>O servidor não pode encontrar o recurso solicitado. No navegador, isso significa que o URL não é reconhecido. Em uma API, isso também pode significar que o endpoint é válido, mas o próprio recurso não existe. Os servidores também podem enviar esta resposta em vez de 403 Forbidden para ocultar a existência de um recurso de um cliente não autorizado. Este código de resposta é provavelmente o mais conhecido devido à sua ocorrência frequente na web.</p>
+
+<h3>405 Method Not Allowed</h3>
+<p>O método de solicitação é conhecido pelo servidor, mas não é suportado pelo recurso de destino. Por exemplo, uma API pode não permitir chamar DELETE para remover um recurso.</p>
+
+<h3>500 Internal Server Error</h3>
+<p>O servidor encontrou uma situação com a qual não sabe lidar.</p>
+
+<br><br><br>
+    <p>Botão para testar (Olhar no console os status!)</p>
+    <button id="botao">Carregar primeiro post</button>
+</body>
+<script src="index.js"></script>
+</html>
